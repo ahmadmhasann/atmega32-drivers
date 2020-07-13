@@ -15,6 +15,7 @@
 #include "ultrasonic_sensor_cfg.h"
 volatile u16 ultrasonic_counter=0;
 
+
 void ultrasonic_timer (void) {
 	ultrasonic_counter++;
 }
